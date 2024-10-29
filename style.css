@@ -1,0 +1,70 @@
+/* outfit-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/outfit-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/outfit-v11-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+    font-family: 'Outfit';
+    text-align: center;
+    background-color: #f1faee;
+    padding-top: 200px;
+}
+
+button, select {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Outfit';
+}
+
+button {
+    border: none;
+}
+
+
+h2 {
+    font-weight: 700    ;
+}
+
+p {
+    font-weight: 400;
+}
+
+.optionButton {
+    background-color: #a8dadc;
+    border-radius: 25px;
+    font-weight: 700;
+}
+
+#main, #quiz-screen, #result-screen {
+    padding: 20px 20px 60px 20px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#startButton {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#quiz-screen {
+    min-height: 200px;
+}
